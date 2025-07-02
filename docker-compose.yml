@@ -1,5 +1,17 @@
 version: '3.8'
 services:
+  api:
+    build: .
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/app
+      - ./mlruns:/app/mlruns
+    environment:
+      - PYTHONUNBUFFERED=1
+    # volumes:
+    #   - ./data:/app/data  # Uncomment i you want to mount data
+
   app:
     build: .
     ports:
