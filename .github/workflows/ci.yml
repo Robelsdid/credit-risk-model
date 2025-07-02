@@ -24,6 +24,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Show workspace
+      run: |
+        pwd
+        ls -l
+        ls -l src
+
     - name: Run tests
       run: |
-        pytest tests/
+        export PYTHONPATH=.
+        pytest
