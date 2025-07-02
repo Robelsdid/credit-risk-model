@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/aweso/credit-risk-model/mlruns/967299997894952488/models/m-e3abb548eb854d5da6a102127a1f08f8/artifacts
+creation_timestamp: 1751487473902
+experiment_id: '967299997894952488'
+last_updated_timestamp: 1751487476511
+model_id: m-e3abb548eb854d5da6a102127a1f08f8
+model_type: null
+name: RandomForest_model
+source_run_id: 08ce04086f184784b2a697d954e94d58
+status: 2
+status_message: null

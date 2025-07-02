@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/aweso/credit-risk-model/mlruns/967299997894952488/08ce04086f184784b2a697d954e94d58/artifacts
+end_time: 1751487476524
+entry_point_name: ''
+experiment_id: '967299997894952488'
+lifecycle_stage: active
+run_id: 08ce04086f184784b2a697d954e94d58
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751487471462
+status: 3
+tags: []
+user_id: Robel
