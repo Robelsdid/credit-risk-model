@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/aweso/credit-risk-model/mlruns/967299997894952488/models/m-b43db528c6f143eb9ad0d16ad33e83ac/artifacts
+creation_timestamp: 1751487466956
+experiment_id: '967299997894952488'
+last_updated_timestamp: 1751487471441
+model_id: m-b43db528c6f143eb9ad0d16ad33e83ac
+model_type: null
+name: LogisticRegression_model
+source_run_id: 25e9d227960a4241ba748d9e58ce872a
+status: 2
+status_message: null
