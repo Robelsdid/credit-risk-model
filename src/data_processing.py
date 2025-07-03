@@ -1,4 +1,12 @@
 # Placeholder for data processing and feature engineering functions 
+ task-6
+
+import pandas as pd
+
+def process_data(data_path):
+    df = pd.read_csv(data_path)
+    return df, None 
+
 import pandas as pd
 import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin
@@ -305,3 +313,4 @@ if __name__ == "__main__":
         
     except Exception as e:
         print(f"Error during feature engineering: {e}")
+ main

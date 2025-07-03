@@ -87,4 +87,7 @@ venv.bak/
 .pyre/
 
 # Data folders
-data/ 
+data/
+
+# MLflow tracking and model files
+mlruns/ 

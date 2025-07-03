@@ -1,5 +1,6 @@
 fastapi
 uvicorn
+flake8
 pandas
 numpy
 scikit-learn
