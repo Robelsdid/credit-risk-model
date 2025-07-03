@@ -19,7 +19,11 @@ MLFLOW_EXPERIMENT = 'credit-risk-model'
 print('Processing data...')
 df_processed, pipeline = process_data(DATA_PATH)
 
+ task-6
 # For quick testing, using a random sample of 5000 rows
+
+# For quick testing, use a random sample of 5000 rows
+ main
 df_processed = df_processed.sample(n=5000, random_state=42)
 
 # 2. Split features and target
@@ -34,10 +38,13 @@ for col in X.columns:
     if isinstance(first_valid, pd.Timestamp):
         X = X.drop(columns=[col])
 
+ task-6
 # Drop columns that are not numeric (e.g., datetime strings)
 non_numeric_cols = X.select_dtypes(include=['object']).columns
 X = X.drop(columns=non_numeric_cols)
 
+
+ main
 y = df_processed[TARGET_COL]
 
 print('Unique values in target before mapping:', y.unique())

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/aweso/credit-risk-model/mlruns/967299997894952488/17f4caf23ef94431a7f3c08090c3a088/artifacts
+end_time: 1751484978690
+entry_point_name: ''
+experiment_id: '967299997894952488'
+lifecycle_stage: active
+run_id: 17f4caf23ef94431a7f3c08090c3a088
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751484972770
+status: 4
+tags: []
+user_id: Robel

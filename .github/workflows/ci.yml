@@ -24,10 +24,22 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+ task-6
     - name: Lint with flake8
       run: |
         flake8 .
 
     - name: Run tests with pytest
       run: |
+
+    - name: Show workspace
+      run: |
+        pwd
+        ls -l
+        ls -l src
+
+    - name: Run tests
+      run: |
+        export PYTHONPATH=.
+ main
         pytest
